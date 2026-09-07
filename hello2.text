@@ -1,0 +1,16 @@
+git commands:
+
+git init
+git add (filenamn) eller git add .
+git commit -m "Meddelande"
+git status
+git log
+git push 
+git pull
+git branch
+git checkout "branch-name"
+
+Kan även slå ihop git branch git checkout "branch-name" tillsammans
+och skriva git -b checkout "branch-name"
+
+git merge "branch-name" 

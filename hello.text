@@ -1,6 +1,6 @@
-Hej Git trevligt att träffas!
+Hej Git trevligt att träffas från master
 
-Det är väldigt intressant att lära si detta och samtidgt få tillbaka sina kunskaper sedan tidigare
+Det är väldigt intressant att lära sig detta och samtidgt få tillbaka sina kunskaper sedan tidigare
 
 Vill bara notera vad jag stötte på att i övning 2 steg 2 där jag fick detta meddelandet nedan
 
@@ -13,4 +13,6 @@ vilket betyder att Visual Studio är igång och låser sina egna temporära file
 för att lösa det fick jag skapa en .gitignore file och ange filen .vs där. Sen kunde jag använda git add .
 
 Vad jag kommer ihåg stötte jag aldrig på detta i visula studio 2022 när jag använde det så det måste vara att
-Microsoft  har lagt till något i Visual Studio 2026 som inte fanns i 2022. 
+Microsoft har lagt till något i Visual Studio 2026 som inte fanns i 2022.
+
+
