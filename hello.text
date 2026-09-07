@@ -1,1 +1,16 @@
 Hej Git trevligt att träffas!
+
+Det är väldigt intressant att lära si detta och samtidgt få tillbaka sina kunskaper sedan tidigare
+
+Vill bara notera vad jag stötte på att i övning 2 steg 2 där jag fick detta meddelandet nedan
+
+C:\Users\Jonathan\source\repos\Gitövning1>git add .
+error: open(".vs/Gitövning1.slnx/FileContentIndex/8da286d7-ab9e-41c3-a25b-ae5e11b18260.vsidx"): Permission denied
+error: unable to index file '.vs/Gitövning1.slnx/FileContentIndex/8da286d7-ab9e-41c3-a25b-ae5e11b18260.vsidx'
+fatal: adding files failed
+
+vilket betyder att Visual Studio är igång och låser sina egna temporära filer i mappen .vs
+för att lösa det fick jag skapa en .gitignore file och ange filen .vs där. Sen kunde jag använda git add .
+
+Vad jag kommer ihåg stötte jag aldrig på detta i visula studio 2022 när jag använde det så det måste vara att
+Microsoft  har lagt till något i Visual Studio 2026 som inte fanns i 2022. 
